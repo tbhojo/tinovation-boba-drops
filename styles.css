@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    background: url('https://images.vexels.com/media/users/3/240168/isolated/preview/d17a578c03915b108a4c162b62c13fd3-boba-tea-illustration.png') no-repeat center center fixed;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    margin-top: 50px;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#dynamicText {
+    display: none;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="checkbox"]:checked + .button {
+    display: none;
+}
+
+input[type="checkbox"]:checked + .button + #dynamicText {
+    display: block;
+}
